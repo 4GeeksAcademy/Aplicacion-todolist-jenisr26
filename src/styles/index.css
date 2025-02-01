@@ -1,12 +1,39 @@
-
-/* 
-
-    You can write your own styles here...
+body{
+    background: rgb(185, 249, 185);
+}
+#Tareagris{
+    background: rgb(225, 224, 224);
+    list-style-type: none;
+    text-align: end;
+    padding-right: 10px;
+}
+h1 {
+    margin: 2%;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.hidden-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.hidden-icon span {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.hidden-icon > span {
+    visibility: hidden;
+}
+.hidden-icon:hover > span {
+    visibility: visible;
+}
+.hidden-icon .task-label {
+    flex-grow: 1;
+}
+#i1{
+    margin-left: 81%;
+}
